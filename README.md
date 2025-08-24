@@ -3,13 +3,12 @@ How to Build/Run the Code
 - Prerequisites: You need to have Python 3 installed on your system.
 
 - Dependencies: The script requires the requests and pandas libraries. You can install them using pip:
-- 
-pip install requests pandas
+      pip install requests pandas
 
 
 - Run the Script: The script takes a single positional argument: the S3 URL of the dataset. Run it from your terminal like this:
 
-python data_pipeline.py https://s3-us-west-2.amazonaws.com/com.guild.us-west-2.public-data/project-data/the-movies-dataset.zip
+    python data_pipeline.py https://s3-us-west-2.amazonaws.com/com.guild.us-west-2.public-data/project-data/the-movies-dataset.zip
 
 Output and Deliverables
 
