@@ -1,0 +1,11 @@
+Starting data processing pipeline...
+Downloading data from https://s3-us-west-2.amazonaws.com/com.guild.us-west-2.public-data/project-data/the-movies-dataset.zip...
+Download complete.
+Error processing row with movie ID '82663': 'float' object has no attribute 'replace'
+Error processing row with movie ID '122662': 'float' object has no attribute 'replace'
+Error processing row with movie ID '249260': 'float' object has no attribute 'replace'
+
+Data processing complete!
+Processed data saved to: processed_data\data
+SQL query saved to: processed_data\revenue_by_genre_by_year.sql
+Error log saved to: processed_data\error_log.txt
